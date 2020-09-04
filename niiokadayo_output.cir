@@ -1,0 +1,31 @@
+* Created by KLayout
+
+* cell niioka_new
+.SUBCKT niioka_new
+* net 1 Vdd
+* net 3 Vb
+* net 4 Vout
+* net 6 Vin+
+* net 7 Vin-
+* net 9 Vss
+* device instance $1 r0 *1 198,319.75 CAP
+C$1 1 4 3.0264e-12
+* device instance $2 r0 *1 30.5,330.5 RES
+R$2 3 2 4000
+* device instance $12 r0 *1 49.75,293 NMOS
+M$12 9 2 2 9 NMOS L=2.5U W=10U AS=20P AD=20P PS=24U PD=24U
+* device instance $13 r180 *1 166.5,315.5 PMOS
+M$13 4 1 1 1 PMOS L=1U W=240U AS=280P AD=280P PS=294U PD=294U
+* device instance $19 r0 *1 154,269.5 NMOS
+M$19 9 2 4 9 NMOS L=1U W=120U AS=144P AD=144P PS=156U PD=156U
+* device instance $24 r180 *1 93.5,323.5 PMOS
+M$24 5 5 1 1 PMOS L=3U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $28 m0 *1 115,323.5 PMOS
+M$28 1 5 1 1 PMOS L=3U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $32 r180 *1 136.5,277 NMOS
+M$32 1 7 8 9 NMOS L=1U W=400U AS=440P AD=440P PS=462U PD=462U
+* device instance $42 r180 *1 96,277 NMOS
+M$42 5 6 8 9 NMOS L=1U W=400U AS=440P AD=440P PS=462U PD=462U
+* device instance $52 r180 *1 54.75,267 NMOS
+M$52 8 2 9 9 NMOS L=2.5U W=120U AS=140P AD=140P PS=154U PD=154U
+.ENDS niioka_new
