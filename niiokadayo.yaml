@@ -1,5 +1,5 @@
 ---
 target: niiokadayo
 reference: niiokadayo_reference.cir
-netlist: "/home/anagix/work/2020SepTO/NiiokaOpAmp/opamp_k_niioka_20200903.net"
-schematic: "/home/anagix/work/2020SepTO/NiiokaOpAmp/opamp_k_niioka_20200903.asc"
+netlist: "/home/anagix/work/2020SepTO/NiiokaOpAmp/oamp_klayout_tb.net"
+schematic: "/home/anagix/work/2020SepTO/NiiokaOpAmp/oamp_klayout_tb.asc"
